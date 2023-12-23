@@ -1188,3 +1188,11 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+@media (max-width: 800px) {
+  #header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.402);
+    padding: 10px;
+  }
